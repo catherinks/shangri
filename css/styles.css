@@ -891,7 +891,7 @@ line-height: 1.5;
 }
 
 /*Адаптация под смартфон*/
-@media only screen and (min-width : 375px) and (max-width : 767px) {
+@media (max-width : 767px) {
 
 section {
     padding: 60px 30px;
@@ -902,8 +902,12 @@ section {
     flex-direction: column;
   }
 .header__logo, .header__phone {
-  font-size: 1.3em;
+  font-size: 1em;
 }
+  
+  .header__phone {
+    margin-bottom: 8px;
+  }
 
 .header__logo{
     text-align: center;
